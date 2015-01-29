@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      xmlns:tal="http://xml.zope.org/namespaces/tal">
+<head>
+    <meta charset="utf-8"/>
+    <meta tal:condition="php:true" name="viewport" content="width=800, maximum-scale=1"/>
+    <title>${meta/title}</title>
+    <link rel="stylesheet" href="/styles.php"/>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="/assets/scripts/svg4everybody.min.js"></script>
+    <script src="/assets/scripts/modern.js"></script>
+</head>
+<body>
+
+<div id="scroll-down">
+    <a href="#wwd">
+        <svg x="0px" y="0px"
+             height="100%" viewBox="41.25 30.25 174.25 174.25">
+            <use xlink:href="/assets/images/map.svg#scroll-down"></use>
+        </svg>
+    </a>
+</div>
+
+<div class="showreel">Zobacz nasz <strong>Showreel</strong></div>
+
+
+<div id="logo">
+    <svg id="header-logo" class="preloader" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1280 720">
+        <use xlink:href="/assets/images/map.svg#logo-def"></use>
+    </svg>
+    <div id="preloader-bar">
+        <div id="bar"></div>
+    </div>
+</div>
+
+<div id="preloader" class="show"></div>
+
+<div id="content" class="hide">
+<!-- HEADER -->
+<header>
+    <div class="background" tal:condition="php:true"></div>
+    <div class="videoWrapper">
+        <div tal:condition="php: false" id="player"></div>
+        <video id="video" loop="loop" preload="metadata" autoplay="autoplay">
+            <source src="/assets/video/home_bgr.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</header>
+<!-- #HEADER -->
+
+<!-- NAVIGATION -->
+<nav class="animate">
+    <div>
+        <svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1280 720"
+             enable-background="new 0 0 1280 720">
+            <use xlink:href="/assets/images/map.svg#logo-def"></use>
+        </svg>
+
+    </div>
+
+    <a href="#" class="menu-button-action">
+        <svg class="menu-button" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 65.046 65.047"
+             style="enable-background:new 0 0 65.046 65.047;">
+            <use xlink:href="/assets/images/map.svg#menu-button"></use>
+        </svg>
+    </a>
+    <ul class="cl-effect-3 animate">
+        <li class="animate">
+            <a href="#wwd" i18n:translate="structure">What we do?</a>
+        </li>
+        <li>
+            <a href="#pf" i18n:translate="structure">Portfolio</a>
+        </li>
+        <li>
+            <a href="#portfolio" i18n:translate="structure">Jobs</a>
+        </li>
+        <li>
+            <a href="#portfolio" i18n:translate="structure">Contact</a>
+        </li>
+    </ul>
+</nav>
+<!-- #NAVIGATION -->
+
+<!-- WHAT WE DO -->
+<section id="whatwedo">
+    <a id="wwd" style="margin-top: -40px;"></a>
+
+    <h2 i18n:translate="structure">What we do?</h2>
+    <img alt="line" src="/assets/images/1px_line.png" class="line"/>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac quam ut nulla auctor sollicitudin. Nulla
+        lectus ex, posuere vel dui eget, porta lobortis purus. Ut id nisi sit amet felis placerat venenatis. Sed in
+        neque nisl.</p>
+
+    <div class="panel">
+        <div class="element">
+            <svg class="wwd-web-interactive animate" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                 viewBox="0 0 64 52.719" enable-background="new 0 0 64 52.719">
+                <use xlink:href="/assets/images/map.svg#wwd-ico1"></use>
+            </svg>
+            <h3 i18n:translate="structure">web <span>+</span> interactive</h3>
+        </div>
+        <div class="element">
+            <svg class="wwd-motion-animation animate" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                 viewBox="0 0 55.74 64" enable-background="new 0 0 55.74 64">
+                <use xlink:href="/assets/images/map.svg#wwd-ico2"></use>
+            </svg>
+            <h3 i18n:translate="structure">motion graphics <span>+</span> animation</h3>
+        </div>
+        <div class="element">
+            <svg class="wwd-motion-animation animate" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                 viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+                <use xlink:href="/assets/images/map.svg#wwd-ico3"></use>
+            </svg>
+            <h3 i18n:translate="structure">applications <span>+</span> games</h3>
+        </div>
+        <div class="element">
+            <svg class="wwd-motion-animation animate" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                 viewBox="0 0 64 56.623" enable-background="new 0 0 64 56.623">
+                <use xlink:href="/assets/images/map.svg#wwd-ico4"></use>
+            </svg>
+            <h3 i18n:translate="structure">3d <span>+</span> interactive</h3>
+        </div>
+    </div>
+</section>
+<!-- #WHAT WE DO -->
+
+<!-- INTERMISSION -->
+<section id="intermission">
+    <!--<img src="/assets/images/intermission/bgr_mid-section_1_0.png"/>-->
+
+    <p>
+        "<em i18n:translate="structure">Design is not just what it looks like and feels like. Design is how it
+        works.</em>"
+        <br/>
+        <small>
+            Steve Jobs
+        </small>
+    </p>
+</section>
+<!-- #INTERMISSION -->
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+    <a id="pf" style="margin-top: -40px;"></a>
+
+    <h2 i18n:translate="structure">Portfolio</h2>
+    <img alt="line" src="/assets/images/1px_line.png" class="line"/>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac quam ut nulla auctor sollicitudin. Nulla
+        lectus ex, posuere vel dui eget, porta lobortis purus.</p>
+
+    <div class="panel">
+        <div class="element pull-left">
+            <div class="ilustration">
+                <img alt="line" src="/assets/images/portfolio/img_001.png"/>
+            </div>
+            <article>
+                <h2>Jo Nesbo</h2>
+
+                <h3>
+                    The series follows Harry Hole, a tough detective working for Crime Squad.
+                </h3>
+
+                <p>
+                    <img alt="line" src="/assets/images/1px_line.png" class="line"/><br/>
+                    The series follows Harry Hole, a tough detective working for Crime Squad and later with the National
+                    Criminal Investigation Service (Kripos) who struggles with alcoholism and works on solving crimes in
+                    authentic locations in Oslo and elsewhere, from Australia to the Congo Republic.
+                </p>
+
+                <p class="button">
+                    CASE STUDY >
+                </p>
+            </article>
+        </div>
+        <div class="element pull-right">
+            <div class="ilustration">
+                <img alt="line" src="/assets/images/portfolio/img_002.png"/>
+            </div>
+            <article>
+                <article>
+                    <h2>Grube</h2>
+
+                    <h3>
+                        The series follows Harry Hole, a tough detective working for Crime Squad.
+                    </h3>
+
+                    <p>
+                        <img alt="line" src="/assets/images/1px_line.png" class="line"/><br/>
+                        The series follows Harry Hole, a tough detective working for Crime Squad and later with the
+                        National Criminal Investigation Service (Kripos) who struggles with alcoholism and works on
+                        solving crimes in authentic locations in Oslo and elsewhere, from Australia to the Congo
+                        Republic.
+                    </p>
+
+                    <p class="button" style="text-align: right;">
+                        CASE STUDY >
+                    </p>
+                </article>
+            </article>
+        </div>
+        <div class="element pull-left">
+            <div class="ilustration">
+                <img alt="line" src="/assets/images/portfolio/img_003.png"/>
+            </div>
+            <article>
+                <h2>iCity</h2>
+
+                <h3>
+                    The series follows Harry Hole, a tough detective working for Crime Squad.
+                </h3>
+
+                <p>
+                    <img alt="line" src="/assets/images/1px_line.png" class="line"/><br/>
+                    The series follows Harry Hole, a tough detective working for Crime Squad and later with the National
+                    Criminal Investigation Service (Kripos) who struggles with alcoholism and works on solving crimes in
+                    authentic locations in Oslo and elsewhere, from Australia to the Congo Republic.
+                </p>
+
+                <p class="button">
+                    CASE STUDY >
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+<!-- #PORTFOLIO -->
+
+<!-- CONTACT -->
+<section id="contact">
+    <div id="table-display">
+        <div class="margin"></div>
+        <div id="rtgs">
+            <h2>Ready to get started?</h2>
+        </div>
+        <div id="contact-form">
+            <div id="background">
+                <p>Give us a call, send e-mail<br/>or fill out the form below</p>
+                <img alt="line" class="contact-line" src="/assets/images/1px_line_N9FA8B0.png"/>
+
+                <p>Phone</p>
+
+                <h3>
+                    <small>(+48)</small>
+                    555 555 555
+                </h3>
+                <p>E-mail</p>
+
+                <h3 class="cl-effect-3">
+                    <a href="mailto:contact@nod.agency">contact@nod.agency</a>
+                </h3>
+
+                <form class="FlowupLabels">
+
+                    <div class="fl_wrap">
+                        <label class="fl_label" for="rf_fullname">Full name:</label>
+                        <input name="cform[full_name]" class="fl_input" type="text" id="rf_fullname"/>
+                    </div>
+
+                    <div class="fl_wrap">
+                        <label class="fl_label" for="rf_email">E-mail:</label>
+                        <input name="cform[email]" class="fl_input" type="text" id="rf_email"/>
+                    </div>
+
+                    <div class="fl_wrap">
+                        <label class="fl_label" for="rf_phone">Phone number:</label>
+                        <input name="cform[phone]" class="fl_input" type="text" id="rf_phone"/>
+                    </div>
+
+                    <div class="fl_wrap">
+                        <label class="fl_label" for="rf_details">How can we help:</label>
+                        <input name="cform[details]" class="fl_input" type="text" id="rf_details"/>
+                    </div>
+
+                    <div class="fl_wrap" tal:condition="php: false">
+                        <label class="fl_label" for="rf_details">How can we help:</label>
+                        <textarea rows="8" name="cform[details]" class="fl_input" id="rf_details"></textarea>
+                    </div>
+
+                    <input tal:condition="php: false" class="flowup" name="cform[full_name]" type="text"
+                           placeholder="Full name"/>
+                    <input tal:condition="php: false" class="flowup" name="cform[email]" type="email" placeholder="E-mail"/>
+                    <input tal:condition="php: false" class="flowup" name="cform[phone]" type="tel"
+                           placeholder="Phone number"/>
+                    <input tal:condition="php: false" class="flowup" name="cform[details]" type="tel"
+                           placeholder="How can we help?"/>
+                    <textarea tal:condition="php: false" class="flowup" name="cform[details]" placeholder="How can we help?"
+                              rows="8"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div id="social">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                    <use xlink:href="/assets/images/map.svg#social-facebook"></use>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                    <use xlink:href="/assets/images/map.svg#social-twitter"></use>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 21 17" enable-background="new 0 0 21 17" xml:space="preserve">
+                    <use xlink:href="/assets/images/map.svg#social-vimeo"></use>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                    <use xlink:href="/assets/images/map.svg#social-linkedin"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="margin"></div>
+    </div>
+</section>
+<!-- #CONTACT -->
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="/assets/scripts/jquery.FlowupLabels.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="/assets/scripts/classie.js"></script>
+<script src="/assets/scripts/path.js"></script>
+<script src="/assets/scripts/scripts.js"></script>
+<script tal:condition="php: false" src="/assets/scripts/preloader.js"></script>
+</body>
+</html>

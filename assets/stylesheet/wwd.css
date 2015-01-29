@@ -1,0 +1,47 @@
+/** WWD **/
+#whatwedo {
+    margin-top: 130px;
+    width: 100%;
+    background-color: #FFF;
+    text-align: center;
+}
+#whatwedo h2 {
+    text-align: center;
+    margin: 35px auto 0px auto;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+}
+#whatwedo .line {
+    margin: 15px auto;
+    width: 180px;
+    height: 1px;
+}
+#whatwedo p {
+    text-align: center;
+    margin: auto 20%;
+    color: #666666;
+}
+#whatwedo .panel {
+    margin: 20px auto;
+}
+#whatwedo .panel .element {
+    display: inline-block;
+    margin: 3%;
+    font-weight: bold;
+    width: 250px;
+}
+#whatwedo .panel .element h3 {
+    display: block;
+}
+#whatwedo .panel .element h3 span {
+    color: #FE2D01;
+}
+#whatwedo .panel .element svg {
+    height: 160px;
+    fill: #76727E;
+}
+#whatwedo .panel .element svg:hover {
+    height: 160px;
+    fill: #FE2D01;
+}
+/** //WWD **/

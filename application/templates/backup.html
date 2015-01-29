@@ -1,0 +1,31 @@
+
+<div class="video">
+    <div class="scroll-down">
+        <a href="#wwd">
+            <svg class="scroll-down" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 83 119.314" enable-background="new 0 0 83 119.314">
+                <use tal:condition="php: false" xlink:href="/assets/images/map.svg#scroll-down"></use>
+                <use xlink:href="/assets/images/map.svg#scroll-down"></use>
+            </svg>
+        </a>
+        <div>Scroll down</div>
+    </div>
+    <div tal:condition="php: empty(core['session']['hide_cookie_box'])" class="cookie">
+        <h3 i18n:translate="structure">Cookies</h3>
+        <p i18n:translate="structure">Please be aware that if you do not configure your browser you will accept cookies provided by this website.</p>
+        <a class="cookie-accept" href="#" i18n:translate="structure">I understand!</a>
+
+    </div>
+    <div class="background"></div>
+    <svg class="header-logo animate" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1280 720" enable-background="new 0 0 1280 720">
+        <use xlink:href="/assets/images/map.svg#logo-def"></use>
+    </svg>
+    <div class="videoWrapper">
+        <iframe tal:condition="php: false" src="//player.vimeo.com/video/106293474?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1&amp;loop=1&amp;api=1" width="100%" height="1080" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
+        <div id="player" tal:condition="php:false"></div>
+        <video id="video" loop="loop" preload="metadata" autoplay="autoplay">
+            <source src="/assets/video/header.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <iframe tal:condition="php: false" width="560" height="315" src="//www.youtube.com/embed/wTcNtgA6gHs?autoplay=1&amp;enablejsapi=1&version=3&controls=0&loop=1&start=10" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    </div>
+</div>

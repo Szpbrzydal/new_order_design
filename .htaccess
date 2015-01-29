@@ -1,0 +1,6 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteEngine On
+
+RewriteBase /
+
+RewriteRule ^json/hide_cookie_box$ /application/controller/json.php?action=hide_cookie_box [L]

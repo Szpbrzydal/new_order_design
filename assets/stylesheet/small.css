@@ -1,0 +1,57 @@
+/** SMALL Screen **/
+@media screen and (max-width: 920px) {
+    /** Set portfolio illustrations to 90% **/
+    #portfolio .panel div.element div.ilustration img {
+        width: 100%;
+    }
+    #portfolio .panel div.element div.ilustration img {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /** Navigation **/
+    svg.menu-button {
+        height: 70px;
+        float: right;
+    }
+    svg.menu-button {
+        fill: #273749;
+    }
+
+    ul.show {
+        display: block;
+    }
+    ul.hide {
+        min-height: 0px;
+        max-height: 0px;
+    }
+    /** maybe later: , nav ul li a:active **/
+    nav ul {
+        background-color: #FFFFFF;
+        float: right;
+        min-height: 0px;
+        max-height: 0px;
+        display: none;
+        overflow: hidden;
+
+        margin-top: 70px;
+        right: 0px;
+        position: absolute;
+        z-index: 10;
+    }
+
+    nav ul li {
+        text-align: center;
+        float: right;
+        clear: both;
+    }
+
+    #social svg {
+        fill: #273749;
+        display: inline-block;
+        margin: 15px 0px 15px 15px;
+        height: 64px;
+        width: 64px;
+    }
+}

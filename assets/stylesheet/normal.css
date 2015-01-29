@@ -1,0 +1,72 @@
+/** NORMAL Screen **/
+@media screen and (min-width: 801px) {
+    /** Navigation **/
+    svg.menu-button {
+        display: none;
+    }
+    nav ul {
+        float: right;
+    }
+    nav ul li {
+        display: inline-block;
+    }
+
+    #social svg {
+        height: 32px;
+        width: 32px;
+    }
+}
+
+@media screen and (min-width: 938px) and (max-width: 1350px) {
+    .element {
+        padding: 0 6%;
+    }
+}
+
+@media screen and (min-width: 921px) and (max-width: 1200px) {
+
+
+    #portfolio > div > div > div > img {
+        width: 100%;
+    }
+    #portfolio > div > div > div {
+        width: 65%;
+    }
+
+    #portfolio .panel div.element.pull-right article, #portfolio .panel div.element.pull-left article {
+        /*clear: both;*/
+        /*margin-bottom: 15px;*/
+    }
+}
+
+/** Handle contact form **/
+@media screen and (max-width: 1200px) {
+    #contact {
+        -webkit-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0px 40px;
+    }
+    #rtgs {
+        display: block;
+        width: 100%;
+    }
+    #contact-form {
+        display: block;
+        width: 100%;
+    }
+
+    #table-display div.margin {
+        display: none;
+    }
+    #social {
+        -webkit-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0px 40px;
+    }
+}

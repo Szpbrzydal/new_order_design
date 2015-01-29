@@ -1,0 +1,13 @@
+body{
+    background:#3f394a url('/assets/images/tease.jpg') no-repeat center center;
+    margin:auto;
+    height:100%;
+}
+
+html{
+    height:100%;
+}
+
+img {
+    display: block;
+}

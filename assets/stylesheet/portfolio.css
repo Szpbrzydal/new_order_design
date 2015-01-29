@@ -1,0 +1,109 @@
+/** PORTFOLIO **/
+#portfolio {
+    width: 100%;
+    background-color: #FFF;
+    text-align: center;
+}
+#portfolio h2 {
+    text-align: center;
+    margin: 35px auto 0px auto;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+}
+#portfolio .line {
+    margin: 15px auto;
+    width: 180px;
+    display: inline;
+    height: 1px;
+}
+#portfolio p {
+    text-align: center;
+    margin: auto 20%;
+    color: #666666;
+}
+#portfolio .panel {
+    padding: 40px;
+    margin: 0px auto;
+}
+#portfolio .panel .element {
+    display: block;
+}
+
+#portfolio .panel div.element.pull-left div.ilustration {
+    float: left;
+    margin-right: 25px;
+}
+
+#portfolio .panel div.element.pull-left article {
+    clear: right;
+}
+
+#portfolio .panel div.element.pull-left article h3 {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #666666;
+}
+
+#portfolio .panel div.element.pull-right div.ilustration {
+    float: right;
+    margin-left: 25px;
+}
+
+#portfolio .panel div.element.pull-right article {
+    clear: left;
+}
+
+#portfolio .panel div.element.pull-right article h3 {
+    text-align: right;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #666666;
+}
+
+#portfolio .panel div.element.pull-left article h2 {
+    padding-top: 15px;
+    text-align: left;
+}
+
+#portfolio .panel div.element.pull-left article p {
+    margin: 0px auto;
+    text-align: left;
+}
+
+#portfolio .panel div.element.pull-right article p.button, #portfolio .panel div.element.pull-left article p.button {
+    margin: 0px auto;
+    text-align: left;
+}
+
+#portfolio .panel div.element article img.line {
+    width: 95px;
+    height: 1px;
+}
+
+#portfolio .panel div.element.pull-right article h2 {
+    padding-top: 15px;
+    text-align: right;
+}
+
+#portfolio .panel div.element.pull-right article p {
+    margin: 0px auto;
+    text-align: right;
+}
+
+#portfolio .panel .element h3 {
+    display: block;
+}
+#portfolio .panel .element h3 span {
+    color: #FE2D01;
+}
+#portfolio .panel .element svg {
+    height: 160px;
+}
+
+p.button {
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+/** //PORTFOLIO **/

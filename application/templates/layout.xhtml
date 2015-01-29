@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i18n="http://xml.zope.org/namespaces/i18n" xmlns:tal="http://xml.zope.org/namespaces/tal">
+<head>
+    <meta charset="utf-8"/>
+    <meta tal:condition="php:true" name="viewport" content="width=800, maximum-scale=1" />
+    <title>${meta/title}</title>
+    <link rel="stylesheet" href="/assets/stylesheet/sprites.css" />
+    <link rel="stylesheet" href="/assets/stylesheet/animation.css" />
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="/assets/scripts/svg4everybody.min.js"></script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+    <div class="showreel" i18n:translate="structure">Watch our <strong>Showreel</strong></div>
+    <div class="scroll-down">
+        <a href="#wwd">
+            <svg class="scroll-down" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 83 119.314" enable-background="new 0 0 83 119.314">
+                <use tal:condition="php: false" xlink:href="/assets/images/map.svg#scroll-down"></use>
+                <use xlink:href="/assets/images/map.svg#scroll-down"></use>
+            </svg>
+        </a>
+        <div>Scroll down</div>
+    </div>
+
+    <div tal:condition="php: empty(core['session']['hide_cookie_box'])" class="cookie">
+        <h3 i18n:translate="structure">Cookies</h3>
+        <p i18n:translate="structure">Please be aware that if you do not configure your browser you will accept cookies provided by this website.</p>
+        <a class="cookie-accept" href="#" i18n:translate="structure">I understand!</a>
+
+    </div>
+
+    <div class="background" tal:condition="php:false"></div>
+
+    <svg class="header-logo animate" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1280 720" enable-background="new 0 0 1280 720">
+        <use xlink:href="/assets/images/map.svg#logo-def"></use>
+    </svg>
+
+    <div class="videoWrapper">
+        <iframe tal:condition="php: false" src="//player.vimeo.com/video/106293474?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1&amp;loop=1&amp;api=1" width="100%" height="1080" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
+        <div id="player" tal:condition="php:false"></div>
+        <video id="video" loop="loop" preload="metadata" autoplay="autoplay">
+            <source src="/assets/video/header.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <iframe tal:condition="php: false" width="560" height="315" src="//www.youtube.com/embed/wTcNtgA6gHs?autoplay=1&amp;enablejsapi=1&version=3&controls=0&loop=1&start=10" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    </div>
+</header>
+<!-- //HEADER -->
+
+
+<!-- NAVIGATION -->
+<nav class="animate">
+    <div>
+        <svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1280 720" enable-background="new 0 0 1280 720">
+            <use xlink:href="/assets/images/map.svg#logo-def"></use>
+        </svg>
+
+    </div>
+
+    <a href="#" class="menu-button-action">
+        <svg class="menu-button" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 65.046 65.047" style="enable-background:new 0 0 65.046 65.047;">
+            <use xlink:href="/assets/images/map.svg#menu-button"></use>
+        </svg>
+    </a>
+    <ul class="cl-effect-3 animate">
+        <li class="animate">
+            <a href="#wwd" i18n:translate="structure">What we do?</a>
+        </li>
+        <li>
+            <a href="#pf" i18n:translate="structure">Portfolio</a>
+        </li>
+        <li>
+            <a href="#portfolio" i18n:translate="structure">Jobs</a>
+        </li>
+        <li>
+            <a href="#portfolio" i18n:translate="structure">Contact</a>
+        </li>
+    </ul>
+</nav>
+<!-- //NAVIGATION -->
+
+<!-- WHAT WE DO -->
+<section id="whatwedo">
+    <a id="wwd" style="margin-top: -40px;"></a>
+    <h2 i18n:translate="structure">What we do?</h2>
+    <img alt="line" src="/assets/images/1px_line.png" class="line" />
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac quam ut nulla auctor sollicitudin. Nulla lectus ex, posuere vel dui eget, porta lobortis purus. Ut id nisi sit amet felis placerat venenatis. Sed in neque nisl.</p>
+    <div class="panel">
+        <div class="element">
+            <svg class="wwd-web-interactive animate" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 52.719" enable-background="new 0 0 64 52.719" >
+                <use xlink:href="/assets/images/map.svg#wwd-ico1"></use>
+            </svg>
+            <h3 i18n:translate="structure">web <span>+</span> interactive</h3>
+        </div>
+        <div class="element">
+            <svg class="wwd-motion-animation animate" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 55.74 64" enable-background="new 0 0 55.74 64">
+                <use xlink:href="/assets/images/map.svg#wwd-ico2"></use>
+            </svg>
+            <h3 i18n:translate="structure">motion graphics <span>+</span> animation</h3>
+        </div>
+        <div class="element">
+            <svg class="wwd-motion-animation animate" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+                <use xlink:href="/assets/images/map.svg#wwd-ico3"></use>
+            </svg>
+            <h3 i18n:translate="structure">applications <span>+</span> games</h3>
+        </div>
+        <div class="element">
+            <svg class="wwd-motion-animation animate" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 56.623" enable-background="new 0 0 64 56.623">
+                <use xlink:href="/assets/images/map.svg#wwd-ico4"></use>
+            </svg>
+            <h3 i18n:translate="structure">3d <span>+</span> interactive</h3>
+        </div>
+    </div>
+</section>
+<!-- //WHAT WE DO -->
+
+<!-- INTERMISSION -->
+<section id="intermission">
+    <img src="/assets/images/intermission/bgr_mid-section_1_0.png" />
+    <p>
+        "<em i18n:translate="structure">Design is not just what it looks like and feels like. Design is how it works.</em>"
+        <br />
+        <small>
+            Steve Jobs
+        </small>
+    </p>
+</section>
+<!-- //INTERMISSION -->
+
+<!-- WHAT WE DO -->
+<section id="portfolio">
+    <a id="pf" style="margin-top: -40px;"></a>
+    <h2 i18n:translate="structure">Portfolio</h2>
+    <img alt="line" src="/assets/images/1px_line.png" class="line" />
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac quam ut nulla auctor sollicitudin. Nulla lectus ex, posuere vel dui eget, porta lobortis purus.</p>
+
+    <div class="panel">
+        <div class="element pull-left">
+            <div class="ilustration">
+                <img alt="line" src="/assets/images/portfolio/img_001.png" />
+            </div>
+            <article>
+                <h2>Jo Nesbo</h2>
+                <h3>
+                    The series follows Harry Hole, a tough detective working for Crime Squad.
+                </h3>
+                <p>
+                    <img alt="line" src="/assets/images/1px_line.png" class="line" /><br />
+                    The series follows Harry Hole, a tough detective working for Crime Squad and later with the National Criminal Investigation Service (Kripos) who struggles with alcoholism and works on solving crimes in authentic locations in Oslo and elsewhere, from Australia to the Congo Republic.
+                </p>
+            </article>
+        </div>
+        <div class="element pull-right">
+            <div class="ilustration">
+                <img alt="line" src="/assets/images/portfolio/img_002.png" />
+            </div>
+            <article>
+                <article>
+                    <h2>Grube</h2>
+                    <h3>
+                        The series follows Harry Hole, a tough detective working for Crime Squad.
+                    </h3>
+                    <p>
+                        <img alt="line" src="/assets/images/1px_line.png" class="line" /><br />
+                        The series follows Harry Hole, a tough detective working for Crime Squad and later with the National Criminal Investigation Service (Kripos) who struggles with alcoholism and works on solving crimes in authentic locations in Oslo and elsewhere, from Australia to the Congo Republic.
+                    </p>
+                </article>
+            </article>
+        </div>
+        <div class="element pull-left">
+            <div class="ilustration">
+                <img alt="line" src="/assets/images/portfolio/img_003.png" />
+            </div>
+            <article>
+                <h2>iCity</h2>
+                <h3>
+                    The series follows Harry Hole, a tough detective working for Crime Squad.
+                </h3>
+                <p>
+                    <img alt="line" src="/assets/images/1px_line.png" class="line" /><br />
+                    The series follows Harry Hole, a tough detective working for Crime Squad and later with the National Criminal Investigation Service (Kripos) who struggles with alcoholism and works on solving crimes in authentic locations in Oslo and elsewhere, from Australia to the Congo Republic.
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+<!-- //WHAT WE DO -->
+
+<!-- CONTACT -->
+<section id="contact">
+    <div id="table-display">
+        <div class="margin"></div>
+        <div id="rtgs">
+            <h2>Ready to get started?</h2>
+        </div>
+        <div id="contact-form">
+            <p>Give us a call, send e-mail<br />or fill out the form below</p>
+            <img alt="line" class="contact-line" src="/assets/images/1px_line_N9FA8B0.png" />
+            <p>Phone</p>
+            <h3><small>(+48)</small> 555 555 555</h3>
+            <p>E-mail</p>
+            <h3 class="cl-effect-3">
+                <a href="mailto:contact@nod.agency">contact@nod.agency</a>
+            </h3>
+            <form>
+                <input name="cform[full_name]" type="text" placeholder="Full name" />
+                <input name="cform[email]" type="email" placeholder="E-mail" />
+                <input name="cform[phone]" type="tel" placeholder="Phone number" />
+                <textarea name="cform[details]" placeholder="How can we help?" rows="8"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="margin"></div>
+    </div>
+    <div id="social">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+            <use xlink:href="/assets/images/map.svg#social-facebook"></use>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+            <use xlink:href="/assets/images/map.svg#social-twitter"></use>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 21 17" enable-background="new 0 0 21 17" xml:space="preserve">
+            <use xlink:href="/assets/images/map.svg#social-vimeo"></use>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+            <use xlink:href="/assets/images/map.svg#social-linkedin"></use>
+        </svg>
+    </div>
+</section>
+<!-- //CONTACT -->
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="/assets/scripts/jquery.nicescroll.js"></script>
+<script tal:condition="php:false" src="/assets/scripts/froogaloop.min.js"></script>
+<script src="/assets/scripts/application.js"></script>
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://nod.agency/piwik/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 1]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+        g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<noscript><p><img src="http://nod.agency/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- //Scripts -->
+
+</body>
+</html>

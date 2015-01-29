@@ -1,0 +1,42 @@
+msgid "Watch our <strong>Showreel</strong>"
+msgstr "Zobacz nasz <strong>Showreel</strong>"
+
+msgid "Cookies"
+msgstr "Polityka ciasteczek"
+
+msgid "Please be aware that if you do not configure your browser you will accept cookies provided by this website."
+msgstr "Please be aware that if you do not configure your browser you will accept cookies provided by this website."
+
+msgid "I understand!"
+msgstr "Rozumiem!"
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgid "Jobs"
+msgstr "Kariera"
+
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "What we do?"
+msgstr "Czym się zajmujemy?"
+
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac quam ut nulla auctor sollicitudin. Nulla lectus ex, posuere vel dui eget, porta lobortis purus. Ut id nisi sit amet felis placerat venenatis. Sed in neque nisl. Fusce volutpat urna id sapien mattis rutrum. Integer laoreet neque id sodales luctus. In sit amet orci posuere, hendrerit risus pharetra, finibus enim. Nunc magna est, blandit sed accumsan non, vulputate ac tellus. Donec quis felis in urna finibus auctor vel non leo. Ut a dignissim leo, dignissim ultrices dui. Aliquam sodales sed urna nec gravida."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac quam ut nulla auctor sollicitudin. Nulla lectus ex, posuere vel dui eget, porta lobortis purus. Ut id nisi sit amet felis placerat venenatis. Sed in neque nisl. Fusce volutpat urna id sapien mattis rutrum. Integer laoreet neque id sodales luctus. In sit amet orci posuere, hendrerit risus pharetra, finibus enim. Nunc magna est, blandit sed accumsan non, vulputate ac tellus. Donec quis felis in urna finibus auctor vel non leo. Ut a dignissim leo, dignissim ultrices dui. Aliquam sodales sed urna nec gravida."
+
+msgid "web <span>+</span> interactive"
+msgstr "web <span>+</span> interactive"
+
+msgid "motion graphics <span>+</span> animation"
+msgstr "motion graphics <span>+</span> animation"
+
+msgid "applications <span>+</span> games"
+msgstr "aplikacje <span>+</span> gry"
+
+msgid "3d <span>+</span> interactive"
+msgstr "3d <span>+</span> interactive"
+
+msgid "Design is not just what it looks like and feels like. Design is how it works."
+msgstr "Projektowanie to nie tylko to co widać i czuć. Projektowanie to także jak to działa"
+

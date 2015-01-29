@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82d789bb-8986-459f-86a8-318b7b540b1f" name="Default" comment="" />
+    <ignored path="new_order_design.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="new_order_design" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="homepage.xhtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/templates/homepage.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="133" column="0" selection-start="5106" selection-end="5106" vertical-scroll-proportion="2.8593042" vertical-offset="105" max-vertical-offset="5025">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.svg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/images/map.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="137" column="28" selection-start="12930" selection-end="12931" vertical-scroll-proportion="-8.461538" vertical-offset="1835" max-vertical-offset="2745">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheet/navigation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="41" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="145" column="50" selection-start="4794" selection-end="4794" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="2310">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheet/header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="14" selection-start="888" selection-end="1094" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2190">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preloader.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheet/preloader.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="22" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheet/contact.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="15" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0" vertical-offset="1023" max-vertical-offset="1995">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intermission.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheet/intermission.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="30" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="large.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheet/large.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="18" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1350">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/assets/images/wwd/ico_04.svg" />
+        <option value="$PROJECT_DIR$/3rdparty/php_mo/php_mo.php" />
+        <option value="$PROJECT_DIR$/i18n/pl_PL/LC_MESSAGES/nod.agency.po" />
+        <option value="$PROJECT_DIR$/i18n/generator.php" />
+        <option value="$PROJECT_DIR$/assets/images/menu32.svg" />
+        <option value="$PROJECT_DIR$/assets/scripts/froogaloop.min.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/dao/Baseject.php" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/svg4everybody.min.js" />
+        <option value="$PROJECT_DIR$/web/NOD_casestudy_apps_1_0.html" />
+        <option value="$PROJECT_DIR$/assets/scripts/application.js" />
+        <option value="$PROJECT_DIR$/application/templates/backup.html" />
+        <option value="$PROJECT_DIR$/assets/images/svg/facebook_new.svg" />
+        <option value="$PROJECT_DIR$/db_select.php" />
+        <option value="$PROJECT_DIR$/DbHelper.php" />
+        <option value="$PROJECT_DIR$/application/templates/layout.xhtml" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/scripts/modern.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/path.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/preloader.js" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/fonts.css" />
+        <option value="$PROJECT_DIR$/3rdparty/minify/cssmin.php" />
+        <option value="$PROJECT_DIR$/preloader.html" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/base.css" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/styles.css" />
+        <option value="$PROJECT_DIR$/import/config.php" />
+        <option value="$PROJECT_DIR$/import/index.php" />
+        <option value="$PROJECT_DIR$/import/test.svg" />
+        <option value="$PROJECT_DIR$/import/test.html" />
+        <option value="$PROJECT_DIR$/import/import.php" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/jquery.FlowupLabels.css" />
+        <option value="$PROJECT_DIR$/assets/images/scroll-down.svg" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/small.css" />
+        <option value="$PROJECT_DIR$/styles.php" />
+        <option value="$PROJECT_DIR$/application/templates/webgl.xhtml" />
+        <option value="$PROJECT_DIR$/application/templates/webgl.html" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/normal.css" />
+        <option value="$PROJECT_DIR$/assets/images/map.svg" />
+        <option value="$PROJECT_DIR$/assets/images/svg/logo-kopia.svg" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/animation.css" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/portfolio.css" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/preloader.css" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/sprites.css" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/wwd.css" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/large.css" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/intermission.css" />
+        <option value="$PROJECT_DIR$/application/templates/homepage.xhtml" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/header.css" />
+        <option value="$PROJECT_DIR$/assets/scripts/scripts.js" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/navigation.css" />
+        <option value="$PROJECT_DIR$/assets/stylesheet/contact.css" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1134" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baseject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_order_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rdparty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.XML" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="SearchEverywhereHistory" value="&#10;//" />
+    <property name="LayoutCode.rearrangeEntriesXHTML" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Projects" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/scripts" />
+      <recent name="$PROJECT_DIR$/i18n/pl_PL/LC_MESSAGES" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="3c2904fe-2d35-4999-a5d0-accc80f7fff4" server_name="NewOrderDesign">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82d789bb-8986-459f-86a8-318b7b540b1f" name="Default" comment="" />
+      <created>1409770199303</created>
+      <updated>1409770199303</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1134" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29822835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20628683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12140575" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329581" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19116081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329581" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115015976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/NOD_casestudy_apps_1_0_edge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/NOD_casestudy_apps_1_0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="7" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.45789474" vertical-offset="0" max-vertical-offset="950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0119904075" vertical-offset="0" max-vertical-offset="1251" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/facebook_new.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="480" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/linkedin_new.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/twitter_new.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="469" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/vimeo_new.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="501" selection-end="1249" vertical-scroll-proportion="0.09174312" vertical-offset="0" max-vertical-offset="981" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/Baseject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="114" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="261" column="56" selection-start="9151" selection-end="9151" vertical-scroll-proportion="0.65384614" vertical-offset="3490" max-vertical-offset="4140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/baseject/baseject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="2" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DbHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="78" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-23.625" vertical-offset="48" max-vertical-offset="1005" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="23" selection-start="1077" selection-end="1077" vertical-scroll-proportion="-9.375" vertical-offset="435" max-vertical-offset="1140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="13" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/modern.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8045" selection-start="8215" selection-end="8215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/1px_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/preloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="51" selection-start="2565" selection-end="2565" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="7" selection-start="1174" selection-end="4828" vertical-scroll-proportion="0.0" vertical-offset="1724" max-vertical-offset="2400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/classie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="83" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3rdparty/minify/cssmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1384" column="10" selection-start="40532" selection-end="40532" vertical-scroll-proportion="0.0" vertical-offset="20760" max-vertical-offset="76305" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/jquery.FlowupLabels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preloader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="34" selection-start="483" selection-end="662" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="3" selection-start="2688" selection-end="2688" vertical-scroll-proportion="-78.125" vertical-offset="0" max-vertical-offset="1965" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="28" selection-start="2539" selection-end="2539" vertical-scroll-proportion="0.4039874" vertical-offset="680" max-vertical-offset="2250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/landing.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/layout.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="20" selection-start="699" selection-end="1254" vertical-scroll-proportion="-1.875" vertical-offset="195" max-vertical-offset="3990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="23" selection-start="30" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/jquery.FlowupLabels.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="18" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.8974359" vertical-offset="0" max-vertical-offset="1287" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/scroll-down.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="75" selection-start="395" selection-end="431" vertical-scroll-proportion="0.06153846" vertical-offset="0" max-vertical-offset="975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/small.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/webgl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="357" selection-end="357" vertical-scroll-proportion="0.310559" vertical-offset="0" max-vertical-offset="966">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/normal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="20" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/logo-kopia.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="504" selection-end="504" vertical-scroll-proportion="0.09090909" vertical-offset="0" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/animation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="16" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.37878788" vertical-offset="585" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="11" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.0" vertical-offset="1023" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/sprites.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="14" selection-start="3225" selection-end="3225" vertical-scroll-proportion="0.0" vertical-offset="1286" max-vertical-offset="11520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/wwd.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="18" selection-start="802" selection-end="802" vertical-scroll-proportion="0.6515151" vertical-offset="0" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/large.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="18" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/intermission.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="30" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/map.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="28" selection-start="12930" selection-end="12931" vertical-scroll-proportion="-8.461538" vertical-offset="1835" max-vertical-offset="2745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/preloader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="22" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="14" selection-start="888" selection-end="1094" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="50" selection-start="4794" selection-end="4794" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="2310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/navigation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="41" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheet/contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="15" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0" vertical-offset="1023" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/templates/homepage.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="0" selection-start="5106" selection-end="5106" vertical-scroll-proportion="2.8593042" vertical-offset="105" max-vertical-offset="5025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

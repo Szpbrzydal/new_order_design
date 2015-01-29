@@ -1,0 +1,85 @@
+@media screen and (min-width: 1201px) and (max-width: 1399px) {
+    #table-display {
+        width: 100%;
+        display: table;
+    }
+    #rtgs {
+        display: table-cell;
+        width: 864px;
+    }
+    #contact-form {
+        display: table-cell;
+    }
+
+    #table-display div.margin {
+        width: 40px;
+        display: table-cell;
+    }
+    #social {
+        -webkit-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0px 40px;
+    }
+}
+
+/** LARGE Screen **/
+@media screen and (min-width: 1400px) {
+    .panel {
+        width: 1360px;
+    }
+
+    /** Navigation **/
+    svg.menu-button {
+        display: none;
+    }
+    nav ul {
+        float: right;
+    }
+    nav ul li {
+        display: inline-block;
+    }
+
+    .showreel {
+        font-size: 2.4em;
+        bottom: 30%;
+        /*margin-top: 38%;*/
+    }
+
+    #table-display {
+        width: 1360px;
+        display: block;
+        margin: auto;
+    }
+
+    #rtgs {
+        display: inline-block;
+        width: 864px;
+        float: left;
+    }
+    #contact-form {
+        display: inline-block;
+        width: 496px;
+    }
+
+    #table-display div.margin {
+        display: none;
+    }
+    #social {
+        width: 1360px;
+        margin: 0px auto;
+    }
+    #social svg {
+        height: 32px;
+        width: 32px;
+        margin: 5px;
+    }
+
+
+    div.scroll-down {
+        margin-top: 47%;
+    }
+}
+/** //LARGE Screen **/

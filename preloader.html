@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preloader</title>
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+<body>
+<div id="preloader" class="show">Preloader</div>
+<div id="content" class="hide">Content</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="application/javascript">
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('#preloader').removeClass('show').addClass('hide');
+            $('#content').removeClass('hide').addClass('show');
+        },3000);
+    });
+</script>
+</body>
+</html>

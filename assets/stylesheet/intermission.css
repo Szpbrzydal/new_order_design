@@ -1,0 +1,22 @@
+/** INTERMISSION **/
+#intermission {
+    background-color:  #404040;
+    overflow: hidden;
+    height: 360px;
+}
+#intermission p {
+    padding-top: 145px;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.8rem;
+    margin: auto;
+}
+#intermission p small {
+    color: #FE2D01;
+    font-size: 1.4rem;
+    margin: auto;
+}
+#intermission img {
+    width: 100%;
+}
+/** //INTERMISSION **/
